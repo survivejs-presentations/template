@@ -42,10 +42,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.md$/,
-        loader: "html-loader!markdown-loader?gfm=false",
-      },
-      {
         test: /\.(js|jsx)$/,
         loader: "babel-loader",
         include: PATHS.presentation,
